@@ -7,7 +7,6 @@ parser: '@typescript-eslint/parser'
 parserOptions:
   project: ['./tsconfig.json']
 
-
 plugins:
   - 'unused-imports'
   - '@typescript-eslint'
@@ -20,6 +19,10 @@ extends:
   - plugin:@typescript-eslint/recommended
   - plugin:react-hooks/recommended
   - prettier
+
+settings:
+  react:
+    version: detect
 
 rules:
   # other
