@@ -1,6 +1,4 @@
 {
-  "window.zoomLevel": 0,
-  "prettier.configPath": "./prettierrc.yml",
-  "editor.formatOnSave": true,
+  "prettier.configPath": "./.prettierrc.yml",
   "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
